@@ -4,17 +4,25 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>p5.js Project</title>
+    <title>helen-mid-march-project</title>
 
     <link rel="stylesheet" href="style.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.min.js" crossorigin="anonymous"></script>
 </head>
-<P>welcome to retro future!!!</P>
-<body>
-<img src="cd.jpg" alt="">
+<body onclick="songplay()" ondblclick="song2play()" >
+  <p id="ment1">click to play random music!</p>
+  <p id="ment2">bored of this one? double tap to change the music</p>
+  <p id="ment3">you're listening to eric nam's before we begin album</p>
+  <p id="ment4">you're listening to selena gomez's rare album</p>
+  <p id="ment5">tap to change again!</p>
+  <audio id="musicc" src="./musicc.mp3" type="audio/mp3"></audio>
+  <audio id="musicc2" src="./music2.mp3" type="audio/mp3"></audio>
+  <img id="img1" src="./img1.jpeg" alt="">
+  <img id="img2"src="./img2.jpg" alt="">
 </body>
 
 <script src="./sketch.js"></script>
+<script src="./script.js"></script>
 
 </html>
