@@ -4,8 +4,8 @@ let b;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	angleMode(DEGREES);
-  r = color('#BDC2EA');
-  b = color('#FCC7E9');
+  r = color('#7785F9');
+  b = color('#FCAFE1');
 
 }
 function draw(){
