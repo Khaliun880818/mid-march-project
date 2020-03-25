@@ -4,9 +4,8 @@ let b;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	angleMode(DEGREES);
-  r = color('#7785F9');
-  b = color('#FCAFE1');
-
+  r = color('#D1BEB5');
+  b = color('#AFFCFC');
 }
 function draw(){
   let t = map(mouseX,0,width,0,1.0);
@@ -25,8 +24,8 @@ function draw(){
 	circle(windowWidth/2, windowHeight/2, 125)
 	fill('#F3E9EE');
 	circle(windowWidth/2, windowHeight/2, 110);
-	fill('#C3EAE3');
+	fill('#ECD0EC');
 	circle(windowWidth/2, windowHeight/2, 100);
   angle = angle +1;
 
-	}
+}

@@ -1,5 +1,5 @@
 body{
-  background-color: #E0AFFC;
+  background-color: #ECD0EC;
 }
 p {
   text-align: center;
@@ -20,15 +20,3 @@ p {
 #ment5{
   display: none;
 }
-#img1{
-  margin-left: auto;
-  display:none;
-  width: 200px;
-  height: 200px;
-}
-#img2{
-  display:none;
-  margin-left: auto;
-  width: 200px;
-  height: 200px;
-  }
